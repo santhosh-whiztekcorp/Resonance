@@ -6,7 +6,7 @@ import { TextInputPanel } from "@/features/dashboard/components/text-input-panel
 
 export function DashboardView() {
   return (
-    <div className="relative">
+    <div className="relative min-h-screen">
       <PageHeader title="Dashboard" className="lg:hidden" />
       <HeroPattern />
       <div className="relative space-y-8 p-4 lg:p-16">
