@@ -11,7 +11,14 @@ import { TooltipProvider } from "@/components/ui/tooltip"
 
 export function Providers({ children }: PropsWithChildren) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      appearance={{
+        elements: {
+          modalCloseButton: "text-muted-foreground! hover:bg-accent! hover:text-foreground!",
+          modalBackdrop: "bg-background/80! backdrop-blur-sm!",
+        },
+      }}
+    >
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
         <TooltipProvider>{children}</TooltipProvider>
         <Toaster richColors position="top-right" visibleToasts={4} />
