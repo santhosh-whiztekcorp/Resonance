@@ -21,13 +21,13 @@ export function DashboardHeader() {
 
       <div className="hidden items-center gap-3 lg:flex">
         <Button variant="outline" size="sm" asChild>
-          <Link href="mailto:business@codewithantonio.com">
+          <Link href="mailto:santhosh10378@gmail.com">
             <ThumbsUp />
             <span className="hidden lg:block">Feedback</span>
           </Link>
         </Button>
         <Button variant="outline" size="sm" asChild>
-          <Link href="mailto:business@codewithantonio.com">
+          <Link href="mailto:santhosh10378@gmail.com">
             <Headphones />
             <span className="hidden lg:block">Need help?</span>
           </Link>

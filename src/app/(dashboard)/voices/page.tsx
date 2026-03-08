@@ -1,3 +1,7 @@
+import { Metadata } from "next"
+
+export const metadata: Metadata = { title: "Voices" }
+
 export default function VoicesPage() {
   return (
     <div className="flex flex-1 items-center justify-center">
